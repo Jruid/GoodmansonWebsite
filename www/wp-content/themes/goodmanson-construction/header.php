@@ -105,10 +105,10 @@
 	<?php endif; ?>
 
 	<div id="home-ctas">
-		<a href="<?php echo get_permalink(11) ?>">
+		<a href="<?php echo get_permalink(99) ?>">
 			View Commercial Services
 		</a>
-		<a href="<?php echo get_permalink(9) ?>">
+		<a href="<?php echo get_permalink(98) ?>">
 			View Residential Services
 		</a>
 	</div>
