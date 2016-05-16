@@ -795,7 +795,7 @@ body .gform_wrapper li.gform_validation_container, body .gform_wrapper ul.gform_
 @media (max-width: 767px) {
 	#site-header {
 		height: auto;
-		padding: 15px;
+		padding: 5px 15px;
 		background-color: #fff;
 		
 		.logo {
@@ -807,14 +807,21 @@ body .gform_wrapper li.gform_validation_container, body .gform_wrapper ul.gform_
 		}
 		.navbar-toggle {
 			position: absolute;
-			top: 70px;
+			top: 25px;
 			right: 7px;
+			
+			.icon-bar {
+				background: @red;
+			}
 		}
 	}
 	#primary-nav {
 		display: none;
 	}
 	#mobile-nav {
+		background-color: rgba(2,33,105,.1);
+		border-top: 2px solid @blue;
+		border-bottom: 2px solid @blue;
 		
 		ul,
 		li {
@@ -822,18 +829,13 @@ body .gform_wrapper li.gform_validation_container, body .gform_wrapper ul.gform_
 			padding: 0;
 			margin: 0;
 		}
-		li + li {
-			border-top: 1px solid #b0b0ec;
-		}
 		a {
 			display: block;
-			padding-top: 25px;
-			padding-bottom: 25px;
+			padding: 25px 10%;;
 			
 			font-size: 14px;
-			text-align: center;
 			text-decoration: none;
-			color: #fff;
+			color: @blue;
 		}
 	}
 } /* END (max-width: 767px) */

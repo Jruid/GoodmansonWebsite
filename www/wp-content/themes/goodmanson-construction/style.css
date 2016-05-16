@@ -6500,7 +6500,7 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
 @media (max-width: 767px) {
   #site-header {
     height: auto;
-    padding: 15px;
+    padding: 5px 15px;
     background-color: #fff;
   }
   #site-header .logo {
@@ -6512,11 +6512,19 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
   }
   #site-header .navbar-toggle {
     position: absolute;
-    top: 70px;
+    top: 25px;
     right: 7px;
+  }
+  #site-header .navbar-toggle .icon-bar {
+    background: #f01716;
   }
   #primary-nav {
     display: none;
+  }
+  #mobile-nav {
+    background-color: rgba(2, 33, 105, 0.1);
+    border-top: 2px solid #022169;
+    border-bottom: 2px solid #022169;
   }
   #mobile-nav ul,
   #mobile-nav li {
@@ -6524,17 +6532,12 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
     padding: 0;
     margin: 0;
   }
-  #mobile-nav li + li {
-    border-top: 1px solid #b0b0ec;
-  }
   #mobile-nav a {
     display: block;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 10%;
     font-size: 14px;
-    text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: #022169;
   }
 }
 /* END (max-width: 767px) */
