@@ -1,7 +1,7 @@
 	</div>
 
 	<section class="cta">
-		<a href="<?php echo get_permalink(17) ?>">
+		<a href="<?php echo get_permalink(102) ?>">
 			<span>Request a Free Estimate Today</span>
 		</a>
 	</section>
@@ -42,7 +42,7 @@
 				<div class="col-sm-3 p-margin">
 					<h4>Contact Us</h4>
 					<p>651-636-4996</p>
-					<p><a href="">Sales@goodmansonconstruction.com</a></p>
+					<p><a href="Sales@goodmansonconstruction.com">Sales@goodmansonconstruction.com</a></p>
 					<div class="social-bookmarks">
 						<a href="facebook.com/"></a>
 						<a href="youtube.com/"></a>
@@ -56,7 +56,7 @@
 	
 	</footer>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
 	<script src="<?php echo get_bloginfo('template_url') ?>/js/bootstrap.js"></script>
 	<script src="<?php echo get_bloginfo('template_url') ?>/js/functions.js"></script>
