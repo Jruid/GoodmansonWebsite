@@ -1,11 +1,6 @@
 <?php get_header(); ?>
 
 	<div class="container">
-		<div class="single-post-header">
-			<h2><?php the_title() ?></h2>
-			<small><?php echo goodmanson_construction_posted_on() ?></small>
-		</div>
-
   		<div class="row">
   			<div class="main col-sm-8">
   				<?php $images = get_field('gallery'); ?>
