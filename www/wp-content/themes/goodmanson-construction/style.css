@@ -6205,6 +6205,11 @@ img {
   left: 0;
   width: 100%;
   background-color: #f01716;
+  border-top: 3px solid #c80c0b;
+  border-bottom: 3px solid #c80c0b;
+  -moz-box-shadow: 0 0 0 3px #f01716;
+  -webkit-box-shadow: 0 0 0 3px #f01716;
+  box-shadow: 0 0 0 3px #f01716;
 }
 #primary-nav .container {
   position: relative;
