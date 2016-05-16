@@ -6269,6 +6269,7 @@ img {
   font-family: 'Lato';
   font-size: 14px;
   line-height: 1.2em;
+  text-align: left;
   color: #fff;
 }
 #primary-nav .sub-menu a:hover {
