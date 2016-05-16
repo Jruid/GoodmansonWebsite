@@ -6263,6 +6263,9 @@ img {
   text-decoration: none;
   color: #fff;
 }
+#primary-nav a:hover {
+  background-color: transparent;
+}
 #primary-nav .sub-menu {
   position: absolute;
   top: 42px;
