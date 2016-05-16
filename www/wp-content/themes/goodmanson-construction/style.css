@@ -1,27 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 /*
-Theme Name: Goodmanson Construction
-Theme URI: http://underscores.me/
-Author: Arcstone
-Author URI: http://arcstone.com
-Description: Custom made theme built especially for Goodmanson Construction!
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: goodmanson-construction
-Tags:
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Goodmanson Construction is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+ * Theme Name: ArcStone Obsidian - Bare Bones
+ * Description: ArcStone's responsive skeleton theme for WordPress based on Twitter Bootstrap.
+ * Author: ArcStone
+ * Author URI: http://www.arcstone.com/
+ * Version: 1.0
 */
-
 /*!
  * Bootstrap v3.0.0 
  *
@@ -6468,7 +6453,7 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
     left: 50%;
     display: inline-block;
     padding: 0 !important;
-    margin-left: -113px;
+    margin-left: -109px;
   }
   #mobile-nav {
     display: none;
