@@ -6263,6 +6263,9 @@ img {
   background-color: #f01716;
   z-index: 99;
 }
+#primary-nav .sub-menu li {
+  display: block;
+}
 #primary-nav .sub-menu a {
   display: block;
   padding: 10px 25px;
