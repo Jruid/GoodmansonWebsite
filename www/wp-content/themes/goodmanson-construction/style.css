@@ -6522,8 +6522,6 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
     display: none;
   }
   #mobile-nav {
-    padding-top: 15px;
-    padding-bottom: 15px;
     margin-right: -15px;
     margin-left: -15px;
     background-color: rgba(2, 33, 105, 0.1);
@@ -6535,6 +6533,10 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
     list-style: none;
     padding: 0;
     margin: 0;
+  }
+  #mobile-nav ul {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   #mobile-nav a {
     display: block;
