@@ -6501,14 +6501,14 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
   #site-header {
     height: auto;
     padding: 15px;
+    background-color: #fff;
   }
   #site-header .logo {
-    width: 180px;
     margin-left: 0 !important;
-    float: left;
+    float: none;
   }
   #site-header .call {
-    margin-right: -15px;
+    display: none;
   }
   #site-header .navbar-toggle {
     position: absolute;

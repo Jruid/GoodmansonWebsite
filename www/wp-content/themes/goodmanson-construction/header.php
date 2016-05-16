@@ -36,7 +36,7 @@
 
 	<header id="site-header">
 
-		<a class="logo visible-xs" href="<?php bloginfo('home'); ?>"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png" alt="Project"></a>
+		<a class="logo visible-xs" href="<?php bloginfo('home'); ?>"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo-sm.png" alt="Project"></a>
 
 		<div class="container text-center">
 			<span class="call">Call Today: 651-636-4996</span>
