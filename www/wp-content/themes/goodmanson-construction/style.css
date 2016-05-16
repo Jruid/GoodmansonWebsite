@@ -6241,11 +6241,15 @@ img {
 #primary-nav li {
   position: relative;
 }
+#primary-nav li:hover .sub-menu {
+  left: 0;
+}
 #primary-nav a {
   display: block;
   padding: 10px 25px;
   font-family: 'Oswald';
   font-size: 20px;
+  font-weight: 300;
   text-decoration: none;
   color: #fff;
 }
