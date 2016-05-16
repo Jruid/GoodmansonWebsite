@@ -6158,6 +6158,11 @@ img {
   text-decoration: none;
   color: #fff;
 }
+.cta a span {
+  display: inline-block;
+  padding-right: 85px;
+  background: url(images/arrow-lg.png) 100% 50% no-repeat;
+}
 .carousel-control {
   width: 40px;
   background: url(images/gallery-arrows.png) 0 50% no-repeat;
