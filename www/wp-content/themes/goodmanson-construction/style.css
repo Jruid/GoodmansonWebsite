@@ -6249,6 +6249,27 @@ img {
   text-decoration: none;
   color: #fff;
 }
+#primary-nav .sub-menu {
+  position: absolute;
+  top: 42px;
+  left: -9999px;
+  width: 225px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 99;
+}
+#primary-nav .sub-menu a {
+  display: block;
+  padding: 10px 20px;
+  font-family: 'Lato';
+  font-size: 14px;
+  line-height: 1.2em;
+  color: #fff;
+}
+#primary-nav .sub-menu a:hover {
+  background-color: #fff;
+  color: #f01716;
+}
 /*************************************************************/
 /******************************** MAIN ***********************/
 /*************************************************************/
@@ -6462,7 +6483,7 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
     margin-left: -109px;
   }
   #mobile-nav {
-    display: none;
+    display: none !important;
   }
 }
 /* END (min-width: 768px) */
