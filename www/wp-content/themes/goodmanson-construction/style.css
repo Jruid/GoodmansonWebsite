@@ -6022,10 +6022,10 @@ img {
 .social-bookmarks a[href*="youtube.com/"]:hover {
   background-position: -380px -144px;
 }
-.social-bookmarks a[href*="viddler.com/"] {
+.social-bookmarks a[href*="mailto:"] {
   background-position: -420px -15px;
 }
-.social-bookmarks a[href*="viddler.com/"]:hover {
+.social-bookmarks a[href*="mailto:"]:hover {
   background-position: -420px -144px;
 }
 .social-bookmarks a[href*="dribbble.com/"] {
