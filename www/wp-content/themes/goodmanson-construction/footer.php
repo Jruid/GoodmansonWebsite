@@ -1,7 +1,9 @@
 	</div>
 
 	<section class="cta">
-		<a href="<?php echo get_permalink(17) ?>">Request a Free Estimate Today</a>
+		<a href="<?php echo get_permalink(17) ?>">
+			<span>Request a Free Estimate Today</span>
+		</a>
 	</section>
 
 	<footer id="site-footer">
