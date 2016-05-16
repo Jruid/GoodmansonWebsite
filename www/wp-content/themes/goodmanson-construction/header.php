@@ -106,10 +106,10 @@
 
 	<div id="home-ctas">
 		<a href="<?php echo get_permalink(99) ?>">
-			View Commercial Services
+			<span>View Commercial Services</span>
 		</a>
 		<a href="<?php echo get_permalink(98) ?>">
-			View Residential Services
+			<span>View Residential Services</span>
 		</a>
 	</div>
 	<?php endif; ?>
