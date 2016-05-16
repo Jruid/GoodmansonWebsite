@@ -6260,11 +6260,12 @@ img {
   width: 225px;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #f01716;
   z-index: 99;
 }
 #primary-nav .sub-menu a {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 25px;
   font-family: 'Lato';
   font-size: 14px;
   line-height: 1.2em;
