@@ -6230,7 +6230,7 @@ img {
   padding: 0;
   margin: 0;
 }
-#primary-nav .primary-right a:hover {
+#primary-nav .primary-right li:hover a {
   background-color: #c60e0d;
 }
 #primary-nav ul {
