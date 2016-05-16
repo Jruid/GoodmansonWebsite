@@ -3,8 +3,8 @@
           <div class="box gray">
   					<h3>How Are We Doing?</h3>
   					<p>Share comments, kudos & concerns by completing our Customer Survey.</p>
-  					<a class="text-btn" href="">Commercial Survey</a>
-  					<a class="text-btn" href="">Residential Survey</a>
+  					<a class="text-btn" href="<?php echo get_the_permalink(190) ?>">Commercial Survey</a>
+  					<a class="text-btn" href="<?php echo get_the_permalink(172) ?>">Residential Survey</a>
   				</div>
   
           <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => 2, 'orderby' => 'rand')); ?>
@@ -21,6 +21,6 @@
   				
   				<div class="box">
   					<h3>We're Hiring!</h3>
-  					<a class="text-btn blue" href="">See Current Openings</a>
+  					<a class="text-btn blue" href="<?php echo get_the_permalink(137) ?>">See Current Openings</a>
   				</div>
   			</aside>
