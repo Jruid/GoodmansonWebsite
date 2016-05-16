@@ -6181,6 +6181,7 @@ img {
   position: relative;
   height: 130px;
   background-color: #022169;
+  z-index: 99;
 }
 #site-header .call {
   display: block;
@@ -6449,7 +6450,7 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
 @media (min-width: 768px) {
   #site-header .logo {
     position: absolute;
-    bottom: 0;
+    bottom: -30px;
     left: 50%;
     display: inline-block;
     padding: 0 !important;
