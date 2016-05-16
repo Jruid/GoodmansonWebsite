@@ -478,6 +478,31 @@ img {
 		text-decoration: none;
 		color: #fff;
 	}
+	.sub-menu {
+		position: absolute;
+		top: 42px;
+		left: -9999px;
+		width: 225px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		z-index: 99;
+		
+		a {
+			display: block;
+			padding: 10px 20px;
+			
+			font-family: 'Lato';
+			font-size: 14px;
+			line-height: 1.2em;
+			color: #fff;
+			
+			&:hover {
+				background-color: #fff;
+				
+				color: @red;
+			}
+		}
+	}
 }
 
 
@@ -745,7 +770,7 @@ body .gform_wrapper li.gform_validation_container, body .gform_wrapper ul.gform_
 		}
 	}
 	#mobile-nav {
-		display: none;
+		display: none !important;
 	}
 } /* END (min-width: 768px) */
 
