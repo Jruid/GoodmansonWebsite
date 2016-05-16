@@ -6226,7 +6226,7 @@ img {
   padding: 0;
   margin: 0;
 }
-#primary-nav .primary-left a:hover {
+#primary-nav .primary-left li:hover {
   background-color: #c60e0d;
 }
 #primary-nav .primary-right {
