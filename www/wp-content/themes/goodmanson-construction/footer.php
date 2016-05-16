@@ -43,10 +43,10 @@
 					<h4>Contact Us</h4>
 					<p>651-636-4996</p>
 					<p><a href="">Sales@goodmansonconstruction.com</a></p>
-					<p>This text is not editable in WP. Start with FB and YT icons, may add more later</p>
 					<div class="social-bookmarks">
 						<a href="facebook.com/"></a>
 						<a href="youtube.com/"></a>
+						<a href="mailto:"></a>
 					</div>
 				</div>
 			</div>
