@@ -7043,6 +7043,12 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  #home-slider .caption h2 {
+    font-size: 30px;
+  }
+  #home-slider .caption p {
+    font-size: 16px;
+  }
 }
 /* END (max-width: 767px) */
 /* END (min-width: 481px) and (max-width: 767px) */
