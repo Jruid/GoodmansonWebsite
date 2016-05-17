@@ -6768,6 +6768,10 @@ img {
 #site-main .gform_wrapper .gfield_radio li label {
   font-weight: 400;
 }
+#site-main .gform_wrapper input[type="radio"],
+#site-main .gform_wrapper input[type="checkbox"] {
+  margin-top: 4px !important;
+}
 #home-slider .caption {
   position: absolute;
   top: 50%;
