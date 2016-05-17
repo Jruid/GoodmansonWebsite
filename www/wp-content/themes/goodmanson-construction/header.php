@@ -88,7 +88,7 @@
 
 	<?php $sliders = new WP_Query(array('post_type' => 'sliders')); ?>
 	<?php if($sliders->have_posts()): $i = 0; ?>
-	<div id="home-slider" class="carousel slide" data-ride="carousel">
+	<div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
 		
 		<div class="carousel-inner" role="listbox">
 			<?php while($sliders->have_posts()): $sliders->the_post() ?>
