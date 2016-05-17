@@ -15,7 +15,7 @@
   					<p>"<?php echo get_the_content() ?>"<br>
   					<em><?php echo get_the_title() ?></em></p>
             <?php endwhile ?>
-  					<a href="">Residential testimonials &gt;&gt;</a>
+  					<a href="<?php echo get_the_permalink(170) ?>">Residential testimonials &gt;&gt;</a>
   					<?php endif ?>
   					
   					<?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => 1, 'orderby' => 'rand', 'cat' => 6)); ?>
@@ -24,7 +24,7 @@
   					<p>"<?php echo get_the_content() ?>"<br>
   					<em><?php echo get_the_title() ?></em></p>
             <?php endwhile ?>
-  					<a href="">Commercial testimonials &gt;&gt;</a>
+  					<a href="<?php echo get_the_permalink(187) ?>">Commercial testimonials &gt;&gt;</a>
   					<?php endif ?>
   				</div>
   				
