@@ -7049,6 +7049,15 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
   #home-slider .caption p {
     font-size: 22px;
   }
+  #home-ctas a {
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+  }
+  #home-ctas a + a {
+    border-top: 1px solid #b0b0ec;
+  }
 }
 /* END (max-width: 767px) */
 /* END (min-width: 481px) and (max-width: 767px) */
