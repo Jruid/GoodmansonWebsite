@@ -5,6 +5,7 @@
   			<div class="main col-sm-8">
   				<?php $images = get_field('gallery'); ?>
 					<?php if( $images ): $i = 0; ?>
+					<?php echo get_the_ID() ?>
 					<?php if(is_page(241)): ?>
 					<?php foreach( $images as $image ): ?>
 					<a href="<?php echo $image['sizes']['gallery']; ?>">
