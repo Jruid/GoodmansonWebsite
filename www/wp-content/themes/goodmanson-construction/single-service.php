@@ -11,10 +11,13 @@
 						echo '<div class="popup-gallery">';
 						echo '<a class="launch" href="'.$image['sizes']['gallery'].'">Launch Gallery</a>';
 					} ?>
-						<?php if($i == 1): else: ?>
-						<a href="<?php echo $image['sizes']['gallery']; ?>">
+						<?php if($i != 1) {
+							echo '<a href="'.$image['sizes']['gallery'].'">';
+						} ?>
 							<img src="<?php echo $image['sizes']['gallery']; ?>" alt="<?php echo $image['alt']; ?>">
-						</a>
+						<?php if($i != 1) {
+							echo '</a>';
+						} ?>
 						<?php endif ?>
 						<?php $total = count($images) ?>
 						<?php if($j == $total) {
