@@ -6748,6 +6748,10 @@ img {
   padding-top: 60px;
   padding-bottom: 50px;
 }
+#site-main .gform_wrapper .gsection {
+  margin-top: 45px;
+  margin-bottom: 0;
+}
 #site-main .gform_wrapper .top_label .gfield_label {
   margin-top: 25px;
   margin-bottom: 0;
