@@ -6762,7 +6762,7 @@ img {
 #home-slider .caption h2 {
   font-family: 'Dancing Script', cursive;
   font-size: 90px;
-  line-height: 1.2em;
+  line-height: 1em;
   color: #fff;
 }
 #home-slider .caption p {
@@ -7038,6 +7038,10 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
     font-size: 20px;
     text-decoration: none;
     color: #022169;
+  }
+  #home-slider .caption {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 /* END (max-width: 767px) */
