@@ -6,13 +6,15 @@
   				<?php $images = get_field('gallery'); ?>
 					<?php if( $images ): $i = 0; ?>
 					<?php $the_id = get_the_ID(); if($the_id == 241): ?>
+					<div class="popup-gallery">
 					<?php foreach( $images as $image ): ?>
-					<a href="<?php echo $image['sizes']['gallery']; ?>">
-						<?php if($i == 0): ?>
-						<img src="<?php echo $image['sizes']['gallery']; ?>" alt="<?php echo $image['alt']; ?>">
-						<?php endif ?>
-					</a>
+						<a href="<?php echo $image['sizes']['gallery']; ?>">
+							<?php if($i == 0): ?>
+							<img src="<?php echo $image['sizes']['gallery']; ?>" alt="<?php echo $image['alt']; ?>">
+							<?php endif ?>
+						</a>
 					<?php $i++; endforeach ?>
+					</div>
 					<?php else: $i = 0 ?>
   				<div id="gallery-slider" class="carousel slide" data-ride="carousel">
 					<!-- Wrapper for slides -->
