@@ -6817,6 +6817,9 @@ img {
   -webkit-border-radius: 15px;
   border-radius: 15px;
   font-family: 'Dancing Script', cursive;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
   color: #fff;
 }
 .gform_validation_container,
