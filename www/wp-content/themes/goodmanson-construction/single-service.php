@@ -8,8 +8,8 @@
 					<?php $the_id = get_the_ID(); if($the_id == 241): ?>
 					<?php foreach( $images as $image ): ?>
 					<?php if($i == 0) {
-						echo '<a class="launch" href="'.$image['sizes']['gallery'].'">Launch Gallery</a>';
 						echo '<div class="popup-gallery">';
+						echo '<a class="launch" href="'.$image['sizes']['gallery'].'">Launch Gallery</a>';
 					} ?>
 						<a href="<?php echo $image['sizes']['gallery']; ?>">
 							<?php if($i == 0): ?>
@@ -21,6 +21,7 @@
 					<?php if($j == $total) {
 						echo '</div>';
 					} ?>
+					<br>
 					<br>
 					<small>(<?php echo $total ?> images)</small>
 					<?php else: $i = 0 ?>
