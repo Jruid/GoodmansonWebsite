@@ -6753,6 +6753,17 @@ img {
   margin-bottom: 0;
   font-weight: 400;
 }
+#site-main .gform_wrapper .gfield_date_day label,
+#site-main .gform_wrapper .gfield_date_month label,
+#site-main .gform_wrapper .gfield_date_year label,
+#site-main .gform_wrapper .gfield_time_ampm label,
+#site-main .gform_wrapper .gfield_time_hour label,
+#site-main .gform_wrapper .gfield_time_minute label,
+#site-main .gform_wrapper .ginput_complex label,
+#site-main .gform_wrapper .instruction {
+  margin-bottom: 15px;
+  font-weight: 400;
+}
 #home-slider .caption {
   position: absolute;
   top: 50%;
