@@ -17,10 +17,10 @@
 							<?php endif ?>
 						</a>
 						<?php $total = count($images) ?>
+						<?php if($j == $total) {
+							echo '</div>';
+						} ?>
 					<?php $i++; $j++; endforeach ?>
-					<?php if($j == $total) {
-						echo '</div>';
-					} ?>
 					<br>
 					<br>
 					<small>(<?php echo $total ?> images)</small>
