@@ -26,8 +26,8 @@
 
 					<a class="left carousel-control" href="#gallery-slider" role="button" data-slide="prev"></a>
 					<a class="right carousel-control" href="#gallery-slider" role="button" data-slide="next"></a>
+					<?php endif; endif ?>
 				</div>
-				<?php endif; endif ?>
 					
 				<h1><?php the_title() ?></h1>
 				<?php while(have_posts()): the_post() ?>
