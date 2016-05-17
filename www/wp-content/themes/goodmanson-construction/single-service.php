@@ -13,8 +13,10 @@
 							<img src="<?php echo $image['sizes']['gallery']; ?>" alt="<?php echo $image['alt']; ?>">
 							<?php endif ?>
 						</a>
+						<?php $total = count($images) ?>
 					<?php $i++; endforeach ?>
 					</div>
+					<small>(<?php echo $total ?> images)</small>
 					<?php else: $i = 0 ?>
   				<div id="gallery-slider" class="carousel slide" data-ride="carousel">
 					<!-- Wrapper for slides -->
