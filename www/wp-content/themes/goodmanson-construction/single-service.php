@@ -4,18 +4,24 @@
   		<div class="row">
   			<div class="main col-sm-8">
   				<?php $images = get_field('gallery'); ?>
-					<?php if( $images ): $i = 0; ?>
+					<?php if( $images ): $i = 0; $j = 1 ?>
 					<?php $the_id = get_the_ID(); if($the_id == 241): ?>
-					<div class="popup-gallery">
 					<?php foreach( $images as $image ): ?>
+					<?php if($i == 0) {
+						echo '<a class="launch" href="'.$image['sizes']['gallery'].'">Launch Gallery</a>';
+						echo '<div class="popup-gallery">';
+					} ?>
 						<a href="<?php echo $image['sizes']['gallery']; ?>">
 							<?php if($i == 0): ?>
 							<img src="<?php echo $image['sizes']['gallery']; ?>" alt="<?php echo $image['alt']; ?>">
 							<?php endif ?>
 						</a>
 						<?php $total = count($images) ?>
-					<?php $i++; endforeach ?>
-					</div>
+					<?php $i++; $j++; endforeach ?>
+					<?php if($j == $total) {
+						echo '</div>';
+					} ?>
+					<br>
 					<small>(<?php echo $total ?> images)</small>
 					<?php else: $i = 0 ?>
   				<div id="gallery-slider" class="carousel slide" data-ride="carousel">
