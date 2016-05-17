@@ -6,18 +6,27 @@
   					<a class="text-btn" href="<?php echo get_the_permalink(190) ?>">Commercial Survey</a>
   					<a class="text-btn" href="<?php echo get_the_permalink(172) ?>">Residential Survey</a>
   				</div>
-  
-          <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => 2, 'orderby' => 'rand', 'cat' => 5)); ?>
-          <?php if($testimonials->have_posts()): ?>			
+ 		
           <div class="box">
             <h3>From Our Clients</h3>
+            <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => 1, 'orderby' => 'rand', 'cat' => 5)); ?>
+          	<?php if($testimonials->have_posts()): ?>	
             <?php while($testimonials->have_posts()): $testimonials->the_post() ?>  
   					<p>"<?php echo get_the_content() ?>"<br>
   					<em><?php echo get_the_title() ?></em></p>
             <?php endwhile ?>
-  					<a href="">Read more testimonials &gt;&gt;</a>
+  					<a href="">Residential testimonials &gt;&gt;</a>
+  					<?php endif ?>
+  					
+  					<?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => 1, 'orderby' => 'rand', 'cat' => 6)); ?>
+          	<?php if($testimonials->have_posts()): ?>	
+            <?php while($testimonials->have_posts()): $testimonials->the_post() ?>  
+  					<p>"<?php echo get_the_content() ?>"<br>
+  					<em><?php echo get_the_title() ?></em></p>
+            <?php endwhile ?>
+  					<a href="">Commercial testimonials &gt;&gt;</a>
+  					<?php endif ?>
   				</div>
-          <?php endif; ?>
   				
   				<div class="box">
   					<h3>We're Hiring!</h3>
