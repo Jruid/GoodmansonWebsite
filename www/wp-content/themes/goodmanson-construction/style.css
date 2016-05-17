@@ -6915,6 +6915,10 @@ body ul.gform_fields li.gfield.gform_validation_container {
   width: 100%;
   margin-bottom: 10px;
 }
+.sidebar .box p + a {
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
 .sidebar h3 {
   margin-top: 10px;
   font-weight: 400;
