@@ -6805,6 +6805,7 @@ img {
 }
 .popup-gallery {
   position: relative;
+  margin-bottom: 10px;
 }
 .popup-gallery .launch {
   position: absolute;
