@@ -25,8 +25,6 @@
 							echo '</div>';
 						} ?>
 					<?php $i++; $j++; endforeach ?>
-					<br>
-					<br>
 					<small>(<?php echo $total ?> images)</small>
 					<?php else: $i = 0 ?>
   				<div id="gallery-slider" class="carousel slide" data-ride="carousel">
