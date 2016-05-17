@@ -7052,10 +7052,10 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
   #home-ctas a {
     display: block;
     width: 100%;
-    border: none;
     font-size: 16px;
   }
   #home-ctas a + a {
+    border-left: none;
     border-top: 1px solid #b0b0ec;
   }
 }
