@@ -7,7 +7,7 @@
   					<a class="text-btn" href="<?php echo get_the_permalink(172) ?>">Residential Survey</a>
   				</div>
   
-          <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => 2, 'orderby' => 'rand')); ?>
+          <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => 2, 'orderby' => 'rand', 'cat' => 5)); ?>
           <?php if($testimonials->have_posts()): ?>			
           <div class="box">
             <h3>From Our Clients</h3>
