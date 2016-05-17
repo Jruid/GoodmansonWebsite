@@ -5,7 +5,7 @@
   			<div class="main col-sm-8">
   				<?php $images = get_field('gallery'); ?>
 					<?php if( $images ): $i = 0; ?>
-					<?php if(get_the_ID() == 241): ?>
+					<?php $the_id = get_the_ID(); if($the_id == 241): ?>
 					<?php foreach( $images as $image ): ?>
 					<a href="<?php echo $image['sizes']['gallery']; ?>">
 						<?php if($i == 0): ?>
