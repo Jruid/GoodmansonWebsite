@@ -6339,8 +6339,10 @@ ol {
   padding-left: 25px;
   margin-bottom: 30px;
 }
-label {
-  font-weight: 300;
+.gform_wrapper .top_label .gfield_label {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-weight: 400;
 }
 input,
 textarea {
