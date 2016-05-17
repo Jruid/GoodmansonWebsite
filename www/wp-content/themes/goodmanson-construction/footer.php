@@ -44,9 +44,10 @@
 					<p>651-636-4996</p>
 					<p><a href="Sales@goodmansonconstruction.com">Sales@goodmansonconstruction.com</a></p>
 					<div class="social-bookmarks">
-						<a href="facebook.com/"></a>
+						<a href="http://www.facebook.com/pages/Goodmanson-Construction/161132829150"></a>
 						<a href="youtube.com/"></a>
-						<a href="mailto:"></a>
+						<a href="https://www.linkedin.com/company/goodmanson-construction"></a>
+						<a href="mailto:Sales@goodmansonconstruction.com"></a>
 					</div>
 				</div>
 			</div>
