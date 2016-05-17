@@ -6764,6 +6764,10 @@ img {
   margin-bottom: 15px;
   font-weight: 400;
 }
+#site-main .gform_wrapper .gfield_checkbox li label,
+#site-main .gform_wrapper .gfield_radio li label {
+  font-weight: 400;
+}
 #home-slider .caption {
   position: absolute;
   top: 50%;
@@ -6873,10 +6877,10 @@ img {
   background-color: rgba(0, 0, 0, 0.8);
 }
 .gform_validation_container,
-.gform_wrapper .gform_validation_container,
-body .gform_wrapper .gform_body ul.gform_fields li.gfield.gform_validation_container,
-body .gform_wrapper li.gform_validation_container,
-body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
+.gform_validation_container,
+body .gform_body ul.gform_fields li.gfield.gform_validation_container,
+body li.gform_validation_container,
+body ul.gform_fields li.gfield.gform_validation_container {
   display: none !important;
 }
 /*************************************************************/
