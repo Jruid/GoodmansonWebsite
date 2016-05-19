@@ -204,9 +204,9 @@ function create_testimonials_taxonomies() {
 		'show_ui'           => true,
 		'show_admin_column' => true,
 		'query_var'         => true,
-		'rewrite'           => array( 'slug' => 'category' ),
+		'rewrite'           => array( 'slug' => 'testimonials_category' ),
 	);
-	register_taxonomy( 'category', array( 'testimonials' ), $args );
+	register_taxonomy( 'testimonials_category', array( 'testimonials' ), $args );
 
 }
 add_action( 'init', 'create_testimonials_taxonomies', 0 );
