@@ -6,17 +6,15 @@
   			<div class="main col-sm-8">
   			<?php
   			if(is_page(187)) {
-  				$title = 'Commercial';
-  				$id = 6;
+  				$tax = 'commercial';
   			} else {
-  				$title = 'Residential';
-  				$id = 5;
+  				$tax = 'residential';
   			}
   			?>
   			
-  				<h1><?php echo $title ?> Testimonials</h1>
+  				<h1><?php echo strtoupper($tax) ?> Testimonials</h1>
   				
-          <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => -1, 'cat' => $id)); ?>
+          <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'tax_query' => array(array('taxonomy' => 'testimonials_category', 'field' => 'slug', 'terms' => $tax)) 'post_per_page' => -1)); ?>
         	<?php if($testimonials->have_posts()): ?>	
           <?php while($testimonials->have_posts()): $testimonials->the_post() ?>  
 					<p>"<?php echo get_the_content() ?>"<br>
