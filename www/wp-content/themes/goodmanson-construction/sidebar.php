@@ -9,7 +9,7 @@
  		
           <div class="box">
             <h3>From Our Clients</h3>
-            <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'tax_query' => array('taxonomy' => 'residential'), 'post_per_page' => 1, 'orderby' => 'rand')); ?>
+            <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'tax_query' => array( array('taxonomy' => 'testimonials_category', 'terms' => 19)), 'post_per_page' => 1, 'orderby' => 'rand')); ?>
           	<?php if($testimonials->have_posts()): ?>	
             <?php while($testimonials->have_posts()): $testimonials->the_post() ?>
   					<p>"<?php echo get_the_content() ?>"<br>
@@ -18,7 +18,7 @@
   					<a href="<?php echo get_the_permalink(170) ?>">Residential testimonials &gt;&gt;</a>
   					<?php endif ?>
   					
-  					<?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'tax_query' => array('taxonomy' => 'commercial') 'post_per_page' => 1, 'orderby' => 'rand', 'cat' => 20)); ?>
+  					<?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'tax_query' => array( array('taxonomy' => 'testimonials_category', 'terms' => 20)) 'post_per_page' => 1, 'orderby' => 'rand')); ?>
           	<?php if($testimonials->have_posts()): ?>	
             <?php while($testimonials->have_posts()): $testimonials->the_post() ?>  
   					<p>"<?php echo get_the_content() ?>"<br>
