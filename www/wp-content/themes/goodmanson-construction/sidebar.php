@@ -18,7 +18,7 @@
   					<a href="<?php echo get_the_permalink(170) ?>">Residential testimonials &gt;&gt;</a>
   					<?php endif ?>
   					
-  					<?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'tax_query' => array( array('taxonomy' => 'testimonials_category', 'field' => 'slug', 'terms' => 'commercial')) 'post_per_page' => 1, 'orderby' => 'rand')); ?>
+  					<?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'tax_query' => array( array('taxonomy' => 'testimonials_category', 'field' => 'slug', 'terms' => 'commercial')), 'post_per_page' => 1, 'orderby' => 'rand')); ?>
           	<?php if($testimonials->have_posts()): ?>	
             <?php while($testimonials->have_posts()): $testimonials->the_post() ?>  
   					<p>"<?php echo get_the_content() ?>"<br>
