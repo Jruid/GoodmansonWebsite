@@ -12,6 +12,7 @@
             <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => 1, 'orderby' => 'rand')); ?>
           	<?php if($testimonials->have_posts()): ?>	
             <?php while($testimonials->have_posts()): $testimonials->the_post() ?> 
+            <?php echo '<pre>'.print_r($testimonials, true).'</pre>' ?> 
   					<p>"<?php echo get_the_content() ?>"<br>
   					<em><?php echo get_the_title() ?></em></p>
             <?php endwhile ?>
