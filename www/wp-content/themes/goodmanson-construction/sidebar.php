@@ -9,9 +9,10 @@
  		
           <div class="box">
             <h3>From Our Clients</h3>
-            <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => 1, 'orderby' => 'rand', 'meta_key' => 'testimonials_category', 'meta_value_num' => 19)); ?>
+            <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'post_per_page' => 1, 'orderby' => 'rand')); ?>
           	<?php if($testimonials->have_posts()): ?>	
-            <?php while($testimonials->have_posts()): $testimonials->the_post() ?>  
+            <?php while($testimonials->have_posts()): $testimonials->the_post() ?> 
+            <?php echo '<pre>'.$testimonials.'</pre>' ?> 
   					<p>"<?php echo get_the_content() ?>"<br>
   					<em><?php echo get_the_title() ?></em></p>
             <?php endwhile ?>
