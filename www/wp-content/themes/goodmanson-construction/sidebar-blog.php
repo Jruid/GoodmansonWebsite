@@ -4,7 +4,8 @@
     <ul>
       <?php wp_list_categories( array(
       'orderby' => 'name',
-      'title_li' => false
+      'title_li' => false,
+      'exclude' => 1
       ) ); ?>
     </ul>
   </nav>
