@@ -404,10 +404,9 @@ function staff_post_type() {
 		'filter_items_list'     => __( 'Filter Staff list', 'text_domain' ),
 	);
 	$args = array(
-		'thumbnail',
 		'label'                 => __( 'Staff Member', 'text_domain' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', ),
+		'supports'              => array( 'title', 'editor', 'thumbnail' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
