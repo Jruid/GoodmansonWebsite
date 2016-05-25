@@ -6840,6 +6840,13 @@ img {
 #gallery-slider {
   margin-bottom: 50px;
 }
+.staff a {
+  display: block;
+  border: 5px solid #fff;
+  -moz-box-shadow: 0 0 5px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+}
 .single-post,
 .single-post-header {
   padding-bottom: 30px;
