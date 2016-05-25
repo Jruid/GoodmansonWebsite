@@ -13,7 +13,6 @@ if ( ! function_exists( 'goodmanson_construction_posted_on' ) ) :
  */
 function goodmanson_construction_posted_on() {
 	$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
-	}
 
 	$time_string = sprintf( $time_string,
 		esc_attr( get_the_date( 'c' ) ),
