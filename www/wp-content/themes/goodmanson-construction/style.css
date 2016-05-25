@@ -6629,6 +6629,10 @@ img {
   -webkit-border-radius: 0 !important;
   border-radius: 0 !important;
 }
+.pagination > li.active > a,
+.pagination > li.active > span {
+  background-color: #022169;
+}
 /*************************************************************/
 /******************************** HEADER *********************/
 /*************************************************************/
