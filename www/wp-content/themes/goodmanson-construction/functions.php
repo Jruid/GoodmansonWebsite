@@ -40,7 +40,7 @@ function goodmanson_construction_setup() {
 	 *
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
-	add_theme_support( 'post-thumbnails', array('post', 'page', 'staff') );
+	add_theme_support( 'post-thumbnails' );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -404,6 +404,7 @@ function staff_post_type() {
 		'filter_items_list'     => __( 'Filter Staff list', 'text_domain' ),
 	);
 	$args = array(
+		'thumbnail',
 		'label'                 => __( 'Staff Member', 'text_domain' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', ),
