@@ -15,7 +15,7 @@
 							echo '<div class="row">';
 						} ?>
 							<div class="col-sm-3">
-			          <a href="<?php echo $url ?>" title="<?php echo get_the_content() ?>">
+			          <a href="<?php echo $url ?>" title="<?php echo the_title().', '.get_the_content() ?>">
 			          	<img src="<?php echo $url ?>" alt="">
 			          </a>
 			        </div>
