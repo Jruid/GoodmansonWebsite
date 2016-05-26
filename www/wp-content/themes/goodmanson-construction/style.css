@@ -7027,11 +7027,11 @@ body ul.gform_fields li.gfield.gform_validation_container {
 @media (min-width: 768px) {
   #site-header .logo {
     position: absolute;
-    bottom: -30px;
+    bottom: -35px;
     left: 50%;
     display: inline-block;
     padding: 0 !important;
-    margin-left: -109px;
+    margin-left: -120px;
   }
   #mobile-nav {
     display: none !important;
