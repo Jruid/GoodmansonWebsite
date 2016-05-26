@@ -6999,9 +6999,13 @@ body ul.gform_fields li.gfield.gform_validation_container {
   #site-header .call {
     font-size: 15px;
   }
+  #site-header .logo {
+    width: 200px;
+    margin-left: -100px !important;
+  }
   #primary-nav .primary-left,
   #primary-nav .primary-right {
-    width: 357px;
+    width: 370px;
   }
   #primary-nav a {
     font-size: 15px;
