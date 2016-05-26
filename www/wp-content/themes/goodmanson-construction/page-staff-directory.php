@@ -15,15 +15,15 @@
 						<?php if($i == 0) {
 							echo '<div class="row">';
 						} ?>
-							<div class="col-sm-3 staff">
+							<div class="col-sm-4 staff">
 			          <a href="<?php echo $url ?>" title="<?php echo the_title().', '.get_the_content() ?>">
 			          	<img src="<?php echo $url ?>" alt="">
 			          </a>
 			        </div>
-		        <?php if($i == 3 OR $j == $total) {
+		        <?php if($i == 2 OR $j == $total) {
 							echo '</div>';
 						} ?>
-	          <?php ($i == 3)? $i = 0 : $i++; $j++; endwhile ?>
+	          <?php ($i == 2)? $i = 0 : $i++; $j++; endwhile ?>
           </div>
         </div>
   			
