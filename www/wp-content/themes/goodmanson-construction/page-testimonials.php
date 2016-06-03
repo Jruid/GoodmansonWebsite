@@ -21,6 +21,8 @@
 					<em><?php echo get_the_title() ?></em></p>
 					<hr>
           <?php endwhile ?>
+          
+          <?php echo pagination() ?>
 					<?php endif ?>
         </div>
   			
