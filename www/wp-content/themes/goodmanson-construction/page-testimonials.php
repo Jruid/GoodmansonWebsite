@@ -14,15 +14,13 @@
   			
   				<h1><?php echo ucfirst($tax) ?> Testimonials</h1>
   				
-          <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'tax_query' => array(array('taxonomy' => 'testimonials_category', 'field' => 'slug', 'terms' => $tax)), 'post_per_page' => -1)); ?>
+          <?php $testimonials = new WP_Query(array('post_type' => 'testimonials', 'tax_query' => array(array('taxonomy' => 'testimonials_category', 'field' => 'slug', 'terms' => $tax)), 'posts_per_page' => -1)); ?>
         	<?php if($testimonials->have_posts()): ?>	
           <?php while($testimonials->have_posts()): $testimonials->the_post() ?>  
 					<p>"<?php echo get_the_content() ?>"<br>
 					<em><?php echo get_the_title() ?></em></p>
 					<hr>
           <?php endwhile ?>
-          
-          <?php echo pagination() ?>
 					<?php endif ?>
         </div>
   			
