@@ -80,9 +80,26 @@ function goodmanson_construction_setup() {
 	) ) );
 
 	add_image_size('gallery', 750, 500);
+	add_image_size('gallery-sm', 300, 300);
 }
 endif;
 add_action( 'after_setup_theme', 'goodmanson_construction_setup' );
+
+add_filter('post_gallery','customFormatGallery',10,2);
+
+function customFormatGallery($string,$attr){
+
+  $output = '<div class="gallery popup-gallery">';
+  $posts = get_posts(array('include' => $attr['ids'],'post_type' => 'attachment'));
+
+  foreach($posts as $imagePost){
+    $output .= '<a href="'.wp_get_attachment_image_src($imagePost->ID, 'full')[0].'"><img src="'.wp_get_attachment_image_src($imagePost->ID, 'gallery-sm')[0].'"></a>';
+  }
+
+  $output .= "</div>";
+
+  return $output;
+}
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
