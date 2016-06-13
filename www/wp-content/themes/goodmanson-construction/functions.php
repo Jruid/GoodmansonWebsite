@@ -80,7 +80,7 @@ function goodmanson_construction_setup() {
 	) ) );
 
 	add_image_size('gallery', 750, 500);
-	add_image_size('gallery-sm', 300, 300);
+	add_image_size('gallery-sm', 300, 300, true);
 }
 endif;
 add_action( 'after_setup_theme', 'goodmanson_construction_setup' );
