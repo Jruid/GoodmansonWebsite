@@ -7068,11 +7068,13 @@ body ul.gform_fields li.gfield.gform_validation_container {
   }
 }
 /* END (min-width: 768px) */
-/* END (min-width: 767px) and (max-width: 992px) */
-@media (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .table {
     font-size: 80%;
   }
+}
+/* END (min-width: 767px) and (max-width: 992px) */
+@media (max-width: 767px) {
   #site-header {
     height: auto;
     padding: 0 15px;
