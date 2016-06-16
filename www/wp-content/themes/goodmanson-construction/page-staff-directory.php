@@ -5,7 +5,7 @@
   			<div class="main col-sm-8">
   				<h1><?php the_title() ?></h1>
   				<div class="popup-gallery">
-	  				<?php $staff = new WP_Query(array('post_type' => 'staff', 'post_per_page' => -1)); ?>	
+	  				<?php $staff = new WP_Query(array('post_type' => 'staff', 'posts_per_page' => -1)); ?>	
 	          <?php $i = 0; $j = 1; while($staff->have_posts()): $staff->the_post() ?>
 	          <?php 
 	          $total = $staff->post_count;
