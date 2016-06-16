@@ -10,7 +10,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title><?php wp_title() ?></title>
-
+	
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_bloginfo('template_url') ?>/favicon.ico">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
