@@ -6866,6 +6866,9 @@ img {
 #gallery-slider {
   margin-bottom: 50px;
 }
+.staff {
+  margin-bottom: 30px;
+}
 .staff a {
   display: block;
   border: 5px solid #fff;
