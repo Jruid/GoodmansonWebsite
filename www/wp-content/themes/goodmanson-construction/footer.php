@@ -46,7 +46,7 @@
 					<div class="social-bookmarks">
 						<a href="http://www.facebook.com/pages/Goodmanson-Construction/161132829150"></a>
 						<a href="https://twitter.com/GoodmansonConst"></a>
-						<a href="youtube.com/channel/UCytDpBW2fVPalIMc-scOsNA"></a>
+						<a href="https://youtube.com/channel/UCytDpBW2fVPalIMc-scOsNA"></a>
 						<a href="https://www.linkedin.com/company/goodmanson-construction"></a>
 						<a href="mailto:Sales@goodmansonconstruction.com"></a>
 					</div>
