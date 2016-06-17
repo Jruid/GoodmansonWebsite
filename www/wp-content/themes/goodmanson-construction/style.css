@@ -7060,7 +7060,7 @@ body ul.gform_fields li.gfield.gform_validation_container {
 @media (min-width: 768px) {
   #site-header .logo {
     position: absolute;
-    bottom: -35px;
+    bottom: -45px;
     left: 50%;
     display: inline-block;
     padding: 0 !important;
