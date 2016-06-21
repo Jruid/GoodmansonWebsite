@@ -66,7 +66,7 @@
 				<?php 
 					wp_nav_menu( array(
 					'theme_location' => 'left_of_logo',
-					'menu_class' => 'primary-left nav nav-justified',
+					'menu_class' => 'primary-left nav',
 					'fallback_cb' => false,
 					'items_wrap' => '<ul id="%1$s" class="%2$s" role="tablist" >%3$s</ul>'
 					));
@@ -75,7 +75,7 @@
 				<?php 
 					wp_nav_menu( array(
 					'theme_location' => 'right_of_logo',
-					'menu_class' => 'primary-right nav nav-justified',
+					'menu_class' => 'primary-right nav ',
 					'fallback_cb' => false,
 					'items_wrap' => '<ul id="%1$s" class="%2$s" role="tablist" >%3$s</ul>'
 					));
