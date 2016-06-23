@@ -3,7 +3,7 @@
   	<div class="container">
   		<div class="row">
   			<div class="main col-sm-8">
-  				<?php if(is_page(98)): ?>
+  				<?php if(is_page(98) OR is_page(99)): ?>
   				<?php $images = get_field('gallery'); ?>
 					<?php if( $images ): $i = 0; $j = 1 ?>
 					<?php foreach( $images as $image ): ?>
