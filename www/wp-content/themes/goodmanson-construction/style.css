@@ -7086,6 +7086,7 @@ body ul.gform_fields li.gfield.gform_validation_container {
     background-color: #fff;
   }
   #site-header .logo {
+    width: 110px;
     margin-left: 0 !important;
     float: none;
   }
