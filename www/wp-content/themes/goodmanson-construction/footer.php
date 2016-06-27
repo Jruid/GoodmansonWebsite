@@ -42,7 +42,7 @@
 				<div class="col-sm-3 p-margin">
 					<h4>Contact Us</h4>
 					<p>651-636-4996</p>
-					<p><a href="Sales@goodmansonconstruction.com">Sales@goodmansonconstruction.com</a></p>
+					<p><a href="mailto:Sales@goodmansonconstruction.com">Sales@goodmansonconstruction.com</a></p>
 					<div class="social-bookmarks">
 						<a href="http://www.facebook.com/pages/Goodmanson-Construction/161132829150"></a>
 						<a href="https://twitter.com/GoodmansonConst"></a>
