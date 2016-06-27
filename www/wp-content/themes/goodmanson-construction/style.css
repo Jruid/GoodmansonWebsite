@@ -6275,7 +6275,6 @@ html,
 body {
   min-width: 320px;
   height: 100%;
-  overflow-x: hidden;
 }
 body {
   font-family: 'Lato', Arial, sans-serif;
