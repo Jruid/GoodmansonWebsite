@@ -689,8 +689,6 @@ img {
 	display: table;
 	table-layout: fixed;
 	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	background-color: @blue;
 	
 	a {
@@ -699,6 +697,8 @@ img {
 		padding-top: 30px;
 		padding-bottom: 30px;
 		background-color: @blue;
+		border-top: 10px solid @blue;
+		border-bottom: 10px solid @blue;
 		vertical-align: middle;
 		
 		font-size: 26px;
@@ -708,6 +708,11 @@ img {
 		
 		+ a {
 			border-left: 1px solid #b0b0ec;
+		}
+		
+		&:hover {
+			background-color: @red;
+			border-color: @red;
 		}
 		
 		span {

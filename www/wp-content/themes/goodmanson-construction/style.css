@@ -6846,8 +6846,6 @@ img {
   display: table;
   table-layout: fixed;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
   background-color: #022169;
 }
 #home-ctas a {
@@ -6856,6 +6854,8 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #022169;
+  border-top: 10px solid #022169;
+  border-bottom: 10px solid #022169;
   vertical-align: middle;
   font-size: 26px;
   text-align: center;
@@ -6864,6 +6864,10 @@ img {
 }
 #home-ctas a + a {
   border-left: 1px solid #b0b0ec;
+}
+#home-ctas a:hover {
+  background-color: #f01716;
+  border-color: #f01716;
 }
 #home-ctas a span {
   display: inline-block;
