@@ -6857,6 +6857,9 @@ img {
   border-top: 10px solid #022169;
   border-bottom: 10px solid #022169;
   vertical-align: middle;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
   font-size: 26px;
   text-align: center;
   text-decoration: none;
