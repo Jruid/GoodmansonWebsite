@@ -7103,6 +7103,7 @@ body ul.gform_fields li.gfield.gform_validation_container {
     margin-left: 0 !important;
     float: none;
   }
+  #site-header .tagline,
   #site-header .call {
     display: none;
   }
