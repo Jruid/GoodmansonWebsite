@@ -700,9 +700,9 @@ img {
 		border-top: 10px solid @blue;
 		border-bottom: 10px solid @blue;
 		vertical-align: middle;
-		-moz-transition: all .5s;
-		-webkit-transition: all .5s;
-		transition: all .5s;
+		-moz-transition: all .25s;
+		-webkit-transition: all .25s;
+		transition: all .25s;
 		
 		font-size: 26px;
 		text-align: center;
@@ -723,6 +723,24 @@ img {
 			padding-right: 65px;
 			background: url(images/arrow-sm.png) 100% 50% no-repeat;
 		}
+	}
+}
+.callout {
+	display: block;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+	
+	color: #323232;
+	
+	&:hover {
+		background-color: #f2f2f2;
+	}
+	
+	span {
+		display: block;
+		padding-bottom: 15px;
+		color: @blue;
 	}
 }
 .main {
