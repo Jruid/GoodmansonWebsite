@@ -7036,6 +7036,8 @@ body ul.gform_fields li.gfield.gform_validation_container {
     width: 370px;
   }
   #primary-nav a {
+    padding-right: 25px;
+    padding-left: 25px;
     font-size: 15px;
   }
 }
@@ -7050,9 +7052,9 @@ body ul.gform_fields li.gfield.gform_validation_container {
     width: 270px;
   }
   #primary-nav a {
-    padding-right: 15px;
-    padding-left: 15px;
-    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
   }
 }
 /* END (max-width: 980px) */
