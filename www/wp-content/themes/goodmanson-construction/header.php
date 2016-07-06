@@ -39,7 +39,13 @@
 
 		<a class="logo visible-xs" href="/"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo-sm.png" alt="Project"></a>
 
-		<div class="container text-center">
+		<div class="container">
+			<?php 
+			$date = date("Y");
+			$start = 1971;
+			$years = $date - $start;
+			?>
+			<p class="tagline">Celebrating <?php echo $years ?> Years</p>
 			<span class="call">Call Today: 651-636-4996</span>
 		</div>
 

@@ -6670,6 +6670,11 @@ img {
   background-color: #022169;
   z-index: 99;
 }
+#site-header .tagline {
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  color: #fff;
+}
 #site-header .call {
   display: block;
   margin-top: 5px;
