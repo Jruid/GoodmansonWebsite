@@ -6675,7 +6675,7 @@ img {
   width: 45%;
   margin: 0;
   font-family: 'Dancing Script', cursive;
-  font-size: 18px;
+  font-size: 34px;
   line-height: 80px;
   color: #fff;
 }
@@ -6683,6 +6683,7 @@ img {
   display: inline-block;
   width: 45%;
   margin: 0;
+  float: right;
   font-family: 'Oswald';
   font-size: 18px;
   line-height: 80px;
