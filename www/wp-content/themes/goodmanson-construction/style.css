@@ -6573,7 +6573,7 @@ img {
 .text-btn.blue:hover {
   background-color: #011137;
 }
-.text-btn.blue-hover {
+.text-btn.blue-hover:hover {
   background-color: #022169;
 }
 .cta {
