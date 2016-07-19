@@ -1,10 +1,8 @@
 	</div>
 
-	<section class="cta">
-		<a href="<?php echo get_permalink(102) ?>">
-			<span>Request a Free Estimate Today</span>
-		</a>
-	</section>
+	<div class="container text-center">
+		<a class="text-btn blue-hover" href="<?php echo get_permalink(102) ?>">Request a Free Estimate Today</a>
+	</div>
 
 	<footer id="site-footer">
 	
