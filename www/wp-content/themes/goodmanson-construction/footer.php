@@ -1,7 +1,7 @@
 	</div>
 
 	<div class="container text-center">
-		<a class="text-btn blue-hover" href="<?php echo get_permalink(102) ?>">Request a Free Estimate Today</a>
+		<a class="text-btn blue-hover lg" href="<?php echo get_permalink(102) ?>">Request a Free Estimate Today</a>
 	</div>
 
 	<footer id="site-footer">

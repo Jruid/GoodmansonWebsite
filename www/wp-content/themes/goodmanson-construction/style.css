@@ -6576,6 +6576,10 @@ img {
 .text-btn.blue-hover:hover {
   background-color: #022169;
 }
+.text-btn.lg {
+  padding: 15px 30px;
+  font-size: 18px;
+}
 .cta {
   padding-top: 15px;
   padding-bottom: 15px;
