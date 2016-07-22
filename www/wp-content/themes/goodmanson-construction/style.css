@@ -6581,6 +6581,7 @@ img {
   font-size: 24px;
 }
 .cta {
+  display: block;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 3px;
@@ -6595,15 +6596,23 @@ img {
   transition: all .5s;
   text-align: center;
 }
-.cta a {
+.cta i {
   font-size: 26px;
+  font-style: normal;
   text-decoration: none;
   color: #fff;
 }
-.cta a span {
+.cta i span {
   display: inline-block;
   padding-right: 85px;
   background: url(images/arrow-lg.png) 100% 50% no-repeat;
+}
+.cta:hover {
+  border-color: #0a1f51;
+  background-color: #022169;
+  -moz-box-shadow: 0 0 0 3px #022169;
+  -webkit-box-shadow: 0 0 0 3px #022169;
+  box-shadow: 0 0 0 3px #022169;
 }
 .carousel-fade .carousel-inner .item {
   transition-property: opacity;
