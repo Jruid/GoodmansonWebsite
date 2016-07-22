@@ -372,6 +372,7 @@ img {
 	}
 }
 .cta {
+	display: block;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	margin-bottom: 3px;
@@ -387,8 +388,9 @@ img {
 	
 	text-align: center;
 	
-	a {
+	i {
 		font-size: 26px;
+		font-style: normal;
 		text-decoration: none;
 		color: #fff;
 		
@@ -397,6 +399,14 @@ img {
 			padding-right: 85px;
 			background: url(images/arrow-lg.png) 100% 50% no-repeat;
 		}
+	}
+	
+	&:hover {
+		border-color: #0a1f51;
+		background-color: @blue;
+		-moz-box-shadow: 0 0 0 3px @blue;
+		-webkit-box-shadow: 0 0 0 3px @blue;
+		box-shadow: 0 0 0 3px @blue;
 	}
 }
 .carousel-fade {

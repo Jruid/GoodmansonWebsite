@@ -1,10 +1,10 @@
 	</div>
 	
-	<section class="cta">
-		<a href="<?php echo get_permalink(102) ?>">
+	<a class="cta" href="<?php echo get_permalink(102) ?>">
+		<i>
 			<span>Request a Free Estimate Today</span>
-		</a>
-	</section>
+		</i>
+	</a>
 
 	<footer id="site-footer">
 	
