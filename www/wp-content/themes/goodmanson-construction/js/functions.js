@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function($) {
 	
 	$('.carousel').carousel({
   	interval: 5000
