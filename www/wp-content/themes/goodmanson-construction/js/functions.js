@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
   
   
   // Popup Gallery
-	$('.popup-gallery, .staff').each(function() {
+	$('.popup-gallery').each(function() {
 		$(this).magnificPopup({
 			delegate: 'a',
 			type: 'image',
@@ -25,5 +25,15 @@ jQuery(document).ready(function($) {
 			}
 		});
 	});
+	
+	$('.staff').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    mainClass: 'mfp-img-mobile',
+    image: {
+      verticalFit: true
+    }
+    
+  });
 
 })
