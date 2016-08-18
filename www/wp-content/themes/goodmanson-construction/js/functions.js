@@ -6,7 +6,7 @@ $(document).ready(function() {
   
   
   // Popup Gallery
-	$('.popup-gallery').each(function() {
+	$('.popup-gallery, .staff').each(function() {
 		$(this).magnificPopup({
 			delegate: 'a',
 			type: 'image',
