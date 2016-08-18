@@ -58,12 +58,6 @@
 	
 	</footer>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
-	<script src="<?php echo get_bloginfo('template_url') ?>/js/bootstrap.js"></script>
-	<script src="<?php echo get_bloginfo('template_url') ?>/js/functions.js"></script>
-	<script src="<?php echo get_bloginfo('template_url') ?>/js/popup.js"></script>
-
 	<?php wp_footer(); ?>
 
 	</body>
